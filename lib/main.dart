@@ -18,7 +18,15 @@ class _tictactoeState extends State<tictactoe> {
       home: Scaffold(
         backgroundColor: Colors.black,
         body: Column(
-
+          children: [
+            Expanded(
+                child: Container()),
+            Expanded(
+                flex: 3,
+                child: Container()),
+            Expanded(
+                child: Container()),
+          ],
         ),
       ),
     );
